@@ -8,16 +8,33 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./archive.css">
-    <script src="./script.js"></script>
+    <script defer src="./script.js"></script>
 </head>
-<body>
+<body class="bg-light text-dark">
     <header>
-
-        <nav class="navbar bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-                <a class=""></a>
-                <div class="d-flex">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="./index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.virbela.com%2Fgo%2Fmetaverse-future-of-work%3Futm_source%3Dlinkedin%26utm_medium%3Dsocial-share%26utm_campaign%3Dmetaverse-panel-2021-04">pagina1</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://twitter.com/share?text=Join+a+one-of-a-kind+interactive+panel+discussion+with+the+founders+of+Second+Life%2C+Virbela%2C+and+other+thought+leaders+in+VR%2FAR+space.+&url=https%3A%2F%2Fwww.virbela.com%2Fgo%2Fmetaverse-future-of-work%3Futm_source%3Dlinkedin%26utm_medium%3Dsocial-share%26utm_campaign%3Dmetaverse-panel-2021-04">pagina2</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.virbela.com%2Fgo%2Fmetaverse-future-of-work%3Futm_source%3Dlinkedin%26utm_medium%3Dsocial-share%26utm_campaign%3Dmetaverse-panel-2021-04">pagina3</a>
+                        </li>
+                    </ul>
+                    <div class="d-flex">
+                        <button class="switch" id="switch"></button>
+                    </div>
                 </div>
             </div>
         </nav>

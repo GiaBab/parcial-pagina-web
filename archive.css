@@ -2,9 +2,24 @@ body
 {
     margin: 0;
     padding: 0;
+    background-color: white;
+}
+
+body.dark
+{
+    background-color: black;
 }
 
 .switch
 {
-    
+    border: 3px;
+    border-radius: 100px;
+    height: 36px;
+    width: 36px;
+    background-color: black;
+}
+
+.switch.active
+{
+    background-color: white;
 }

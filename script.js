@@ -1,7 +1,11 @@
-const btnSwitch = document.querySelector('#switch');
+const btnSwitch = document.querySelector('.switch');
+const body = document.querySelector('body');
 
 btnSwitch.addEventListener('click', () => 
     {
-        document.body.classList.toggle('dark') ;
+        body.classList.toggle('bg-light') ;
+        body.classList.toggle('text-dark') ;
+        body.classList.toggle('bg-dark') ;
+        body.classList.toggle('text-white');
         btnSwitch.classList.toggle('active') ;
     })
