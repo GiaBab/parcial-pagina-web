@@ -15,5 +15,8 @@ En el footer debe contar con:
     ● redes sociales
 
 ------------------------------------Nota de desarrollador----------------------------------------------------------
+mantendre algunas cosas que tiene la pagina original
 
 la pagina puede cambiar de estilo a claro y oscuro mediante un boton que esta en la esquina derecha del header
+
+el estilo de la pagina sera minimalista y simple con algunos detalles funcionales (como el header que acompaña)

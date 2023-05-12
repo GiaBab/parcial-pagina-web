@@ -1,14 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
 body
 {
     margin: 0;
     padding: 0;
     background-color: white;
+    display: flex ;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
 }
 
 body.dark
 {
     background-color: black;
     color: white;
+}
+
+header
+{
+    padding: 10px 16px;
+}
+
+.content 
+{
+    padding: 16px;
+}  
+
+.sticky 
+{
+    position: fixed;
+    top: 0;
+    width: 100% ;
+    background-color:  rgba(122, 122, 122, 0.5);
+}
+
+.sticky + .content 
+{
+    padding-top: 102px;
+}
+
+.register
+{
+    background-color: rgba(126, 126, 126, 0.1);
+    border: 0px solid #000000;
+    border-radius: 4px;
+    padding: 0 16px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.register:hover
+{
+    transform: scale(1.1);
 }
 
 .switch
@@ -27,9 +70,73 @@ body.dark
 
 .text-1
 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding: 8px;
+    font-size: 27px;
+}
+
+.text-1 > h1
+{
+    font-size: 50px;
+    padding: 8px;
+}
+
+.text-2
+{
     background-color: rgb(151, 48, 100);
     color: white;
     margin-top: 8px;
     margin-bottom: 8px;
+    padding: 8px;
+    font-size: 21px;
+}
+
+.text-2 > h3
+{
+    font-size: 18px;
+    padding: 8px;
+}
+
+footer
+{
+    margin-top: 8px;
+}
+
+footer > p
+{
+    padding: 8px;
+} 
+
+footer > p a 
+{
+    color: rgb(224, 224, 224);
+    text-decoration: none;
+}
+
+footer > p a:hover
+{
+    color: rgb(224, 224, 224);
+    text-decoration: none;
+    overflow: hidden;
+}
+
+footer > div > a > img 
+{
+    width: 128px;
+    height: auto;
+    padding: 8px;
+}
+
+.redes
+{
+    list-style-type:none;
+    display:flex;
+    justify-content: center; 
+}
+
+.redes > li
+{
+    display: inline-block;
     padding: 8px;
 }
