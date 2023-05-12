@@ -128,6 +128,24 @@ article
     padding: 24px;
 }
 
+#btn-res
+{
+    padding: 8px;
+}
+
+#btn-res > a
+{
+    text-decoration: none;
+    color: #000000;
+}
+
+#btn-res > a:hover
+{
+    color: #000000;
+    overflow: hidden;
+    text-decoration: none;
+}
+
 footer
 {
     margin-top: 8px;

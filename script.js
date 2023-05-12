@@ -1,6 +1,6 @@
 const btnSwitch = document.querySelector('.switch');
 const $body = document.querySelector('body')
-const navList = document.querySelectorAll('.nav-link')
+const $a = document.querySelectorAll('a')
 
 function swapImages()
 {
@@ -26,7 +26,7 @@ btnSwitch.addEventListener('click', () =>
         $body.classList.toggle('bg-dark') ;
         $body.classList.toggle('text-white');
         btnSwitch.classList.toggle('active') ;
-        navList.forEach(a => a.classList.toggle('text-white'));
+        $a.forEach(a => a.classList.toggle('text-white'));
     })
 
 window.onscroll = function() {scrollHeader()};

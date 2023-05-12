@@ -16,11 +16,13 @@ En el footer debe contar con:
 
 ------------------------------------Nota de desarrollador----------------------------------------------------------
 
-mantendre algunas cosas que tiene la pagina original
+el header se manejara con icon excepto el boton de registro, debido a que la mayoria de persona tiene memorizado su logo y ya saben de que se trataria
 
 la pagina puede cambiar de estilo a claro y oscuro mediante un boton que esta en la esquina derecha del header
+el modo claro se representara con un sol, ya que este lo relacionan mucho con la luz, y el modo oscuro con una luna, ya que cuando esta la luna suele oscurecer
+el boton indicara en que modo esta la pagina
 
-el estilo de la pagina sera minimalista y simple con algunos detalles funcionales (como el header que acompaña)
+en cambio en una pantalla chica el header se va a dividir en 3 partes, la primera es el boton para ver las redes sociales, la segunda es el icon de la pagina y la tercera el cambio de modo oscuro/luminoso
 
-el footer esta terminado con todo lo que se pidio
+el estilo de la pagina sera minimalista y simple con algunos detalles funcionales, elegii minimalista porque es atractivo y no satura de elementos visuales 
 
