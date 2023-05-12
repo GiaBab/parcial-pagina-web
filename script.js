@@ -5,13 +5,16 @@ const navList = document.querySelectorAll('.nav-link')
 function swapImages()
 {
     var img = document.querySelector('#switchImg') ;
+    var imgLogo = document.querySelector('#switchIcon') ;
     if(img.getAttribute('src') == 'modoOscuro.png')
     {
         img.setAttribute('src', 'modoLuminoso.png') ;
+        imgLogo.setAttribute('src', '5f75b78d4598bd2f643c703d_virbela-dark-logo-p-500.png');
     }
     else
     {
         img.setAttribute('src', 'modoOscuro.png') ;
+        imgLogo.setAttribute('src', '5f75b78d4598bd2f643c703d_virbela-white-logo-p-500.png')
     }
 }
 
