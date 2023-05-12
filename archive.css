@@ -24,3 +24,12 @@ body.dark
 {
     background-color: white;
 }
+
+.text-1
+{
+    background-color: rgb(151, 48, 100);
+    color: white;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding: 8px;
+}

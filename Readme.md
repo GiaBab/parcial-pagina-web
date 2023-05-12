@@ -16,4 +16,4 @@ En el footer debe contar con:
 
 ------------------------------------Nota de desarrollador----------------------------------------------------------
 
-la pagina puede cambiar de estilo a claro y oscuro
+la pagina puede cambiar de estilo a claro y oscuro mediante un boton que esta en la esquina derecha del header
