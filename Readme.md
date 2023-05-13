@@ -37,3 +37,4 @@ en cambio en una pantalla chica el header se va a dividir en 3 partes, la primer
 
 el estilo de la pagina sera minimalista y simple con algunos detalles funcionales, elegii minimalista porque es atractivo y no satura de elementos visuales 
 
+la validacion en el caso de que no este completado tirada mensaje rojo en la parte de abajo del registro dando sensacion de que esta mal
