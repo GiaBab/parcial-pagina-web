@@ -1,6 +1,8 @@
 const btnSwitch = document.querySelector('.switch');
-const $body = document.querySelector('body')
-const $a = document.querySelectorAll('a')
+const $body = document.querySelector('body');
+const $a = document.querySelectorAll('a');
+const card = document.querySelector('.card');
+const cardTexts = document.querySelectorAll('.card-obj')
 
 function swapImages()
 {
@@ -23,13 +25,13 @@ function swapImages()
 btnSwitch.addEventListener('click', () => 
     // cuando se haga click en el boton de modo oscuro/claro este cambia a lo que se seleciona
     {
+        const themesClass = ['bg-light','text-dark','bg-dark','text-white'];
         swapImages() ;
-        $body.classList.toggle('bg-light') ;
-        $body.classList.toggle('text-dark') ;
-        $body.classList.toggle('bg-dark') ;
-        $body.classList.toggle('text-white');
+        themesClass.forEach(a => $body.classList.toggle(a)) ;
         btnSwitch.classList.toggle('active') ;
-        $a.forEach(a => a.classList.toggle('text-white'));
+        $a.forEach(a => a.classList.toggle(themesClass[3]));
+        card.classList.toggle('card-dark') ;
+        cardTexts.forEach(a => a.classList.toggle(themesClass[3]))
     }
 )
 

@@ -146,6 +146,22 @@ article
     text-decoration: none;
 }
 
+.card-obj
+{
+    margin: 4px;
+}
+
+.register + .card-obj
+{
+    margin-top: 4px;
+    margin-bottom: 0px;
+}
+
+.card-dark
+{
+    background-color: rgba(34, 34, 34, 0.5);
+}
+
 footer
 {
     margin-top: 8px;
