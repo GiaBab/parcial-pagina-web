@@ -52,3 +52,33 @@ function scrollHeader()
       $header.classList.remove("sticky");
     }
 }  
+
+//validar registro
+
+const fName = document.querySelector('#fName') ;
+const lName = document.querySelector('#lName') ;
+const cName = document.querySelector('#cName') ;
+const email = document.querySelector('#email') ;
+const $form = document.querySelector('form') ;
+const warningText = document.querySelector('#warnings')
+
+$form.addEventListener("submit", e => 
+    {
+        e.preventDefault() ;
+        let warning = "" ;
+        let regaxEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/ ;
+        warningText.innerHTML = "" ;
+        if(fName.value.length <= 3){warning+= "fist name not valid <br>" ;} 
+        if(lName.value.length <= 3){warning+= "last name not valid <br>" ;}
+        if(cName.value.length <= 5){warning+= "company not valid <br>" ;}
+        if(!regaxEmail.test(email.value)){warning+= "email not valid <br>" ;}
+        if(warning != "")
+        {
+            warningText.innerHTML = warning;
+        }
+        else
+        {
+            alert("enviado"); 
+        }
+    }
+)

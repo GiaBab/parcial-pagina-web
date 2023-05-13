@@ -153,13 +153,22 @@ article
 
 .register + .card-obj
 {
-    margin-top: 4px;
+    padding-top: 4px;
     margin-bottom: 0px;
 }
 
 .card-dark
 {
     background-color: rgba(34, 34, 34, 0.5);
+}
+
+.warnings
+{
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    color: red;
+    padding-top: 16px;
 }
 
 footer
